@@ -14,7 +14,7 @@ def lead_details(request, pk):
     context = {
         "lead":lead
     }
-    return render(request, "leads/lead_details.html", context)
+    return render(request, "leads/lead_detail.html", context)
 
 def lead_create(request):
     return render(request, "leads/lead_create.html")
