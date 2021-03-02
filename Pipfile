@@ -7,6 +7,11 @@ name = "pypi"
 django = "*"
 python-decouple = "*"
 pillow = "*"
+django-tailwind = "*"
+django-crispy-forms = "*"
+gunicorn = "*"
+psycopg2-binary = "*"
+psycopg2 = "*"
 
 [dev-packages]
 
